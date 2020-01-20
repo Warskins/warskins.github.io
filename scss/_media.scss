@@ -1,0 +1,207 @@
+
+@media (max-width:1800px){
+  .superhero {
+    background-size: contain;
+  }
+}
+
+@media (max-width:1680px) {
+  .pitch{
+    left: 13%;
+  }
+  .strategy{
+    right: 13%;
+  }
+  .prototype{
+    right: 15%;
+  }
+  .define{
+    right: 35%;
+  }
+  .design{
+    left: 13%;
+  }
+}
+
+@media (max-width:1370px) {
+  .team_member{
+    width: 22%;
+  }
+  .pitch{
+    left: 10%;
+  }
+  .prototype{
+    right: 15%;
+  }
+  .define{
+    right: 40%;
+    top: 70%;
+  }
+  .design{
+    left: 8%;
+
+  }
+}
+
+@media (max-width:1130px) {
+  .container{
+    padding: 0 15px;
+  }
+  .news__block-item{
+    width: auto;
+    margin: 0 auto;
+  }
+
+}
+@media (max-width:1053px) {
+  .footer__links, .footer__stuff{
+    margin-left: 50px;
+  }
+  .header__hero-description{
+    margin-top: 20px;
+  }
+  .footer__form{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media (max-width:1035px) {
+  .superhero__text {
+    padding-top: 145px;
+    padding-bottom: 130px;
+  }
+  .team_member{
+    width: 22%;
+  }
+  .pitch{
+    left: 15%;
+    top: 20%;
+  }
+  .strategy{
+    right: 15%;
+    top: 15%;
+  }
+  .prototype{
+    right: 10%;
+    top: 70%;
+  }
+  .define{
+    top: 87%;
+  }
+  .design{
+    left: 4%;
+    top: 67%;
+  }
+}
+
+@media (max-width:866px) {
+  .header__logo{
+    width: auto;
+    margin: 0 auto 30px;
+  }
+  .header__nav{
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .superpowers__item{
+    margin-top: 30px;
+  }
+
+  .footer__form input{
+    width: 226px;
+  }
+}
+
+@media (max-width:823px) {
+  .header__hero-watch{
+    display: block;
+    max-width: 175px;
+    margin-top: 40px;
+  }
+}
+
+
+
+@media (max-width:787px) {
+  .header__nav-list{
+    padding: 0;
+  }
+}
+
+
+
+
+@media (max-width:746px) {
+  .header__hero-img{
+    display: none;
+  }
+  .header__hero{
+    justify-content: center;
+  }
+  .footer__content{
+    flex-wrap: wrap;
+  }
+
+  .footer__links, .footer__stuff{
+    margin-left: 75px;
+  }
+
+  .footer__form{
+    margin-top: 30px;
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+
+}
+
+
+
+
+@media (max-width:630px) {
+  .footer {
+    padding-top: 25px;
+  }
+  .footer__content{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer__links, .footer__stuff{
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:610px) {
+  .header__buttons{
+    width: auto;
+    margin: 48px auto 0;
+  }
+  .header__nav-list{
+    width: auto;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width:576px) {
+  .team_member{
+    display: none;
+  }
+  .superhero__text {
+    padding-top: 30px;
+  }
+  .person__one, .person__two{
+    flex-wrap: wrap;
+  }
+
+}
+
+
+@media (max-width:368px) {
+  .superpowers__items{
+    background-image: none;
+  }
+}

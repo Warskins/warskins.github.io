@@ -6,7 +6,23 @@ $(function(){
         slidesToScroll: 3,
         arrows:false,
         dots:true,
-        dotsClass:'news-dots'
+        dotsClass:'news-dots',
+        responsive:[
+            {
+                breakpoint: 1130,
+                settings:{
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    }
+            },
+            {
+                breakpoint:770,
+                settings:{
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
     $('.news__block-item').hover(function () {
         $(this).find('.news__title').css('color','#ff9900');

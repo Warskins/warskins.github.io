@@ -33,11 +33,13 @@ a{
   justify-content: space-between;
   min-height: 78px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header__nav{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -48,6 +50,12 @@ a{
   padding-right: 30px;
   li{
     padding-right: 25px;
+    a{
+      transition: color 0.5s;
+    }
+    a:hover{
+      color:$orange_color;
+    }
   }
 }
 
@@ -126,6 +134,7 @@ a{
 .superpowers__items-container{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .superpowers__item{
   text-align: left;
@@ -272,12 +281,12 @@ a{
 }
 .news__block{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 120px;
   border-bottom: 2px solid rgba(188, 208, 229, 0.5);
   a{
-    display: block;
+    display: block!important;
   }
 }
 
@@ -377,6 +386,7 @@ a{
     border-radius: 4px;
     font-weight: 700;
     background-color: #ff9900;
+    cursor:pointer;
   }
 }
 .footer__form-title{
